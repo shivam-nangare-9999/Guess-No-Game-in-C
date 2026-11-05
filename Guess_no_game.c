@@ -26,6 +26,7 @@ int main()
             printf("Congrats! You Guessed It In %d Attempts\n", no_of_guesses);
         }
         no_of_guesses++;
+        
     } while (guess != random);
 
     return 0;
